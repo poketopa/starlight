@@ -12,6 +12,18 @@ Starlight is a native macOS menu bar utility that dims distracting windows while
 - Accessibility permission onboarding for better window tracking.
 - Direct distribution scripts for Developer ID signing and notarization.
 
+## Install
+
+Download the latest notarized build from [GitHub Releases](https://github.com/poketopa/starlight/releases/latest/download/Starlight.zip).
+
+Or install from Terminal:
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/poketopa/starlight/main/install.sh | bash
+```
+
+The installer downloads the latest release, copies `Starlight.app` to `~/Applications`, and opens it.
+
 ## Development
 
 ```sh
